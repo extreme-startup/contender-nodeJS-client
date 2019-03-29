@@ -21,5 +21,5 @@ Modify function in ./src/answer to answer the questions
 Enjoy the game :) 
 
 
-# Note
+## Note
  To check you local server works properly, open in browser: Local_tunnel_link?question=testQuestion, f.e. https://node-js-contender.localtunnel.me?question=testQuestion 
