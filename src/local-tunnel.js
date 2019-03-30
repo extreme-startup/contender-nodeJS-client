@@ -1,8 +1,8 @@
 const localtunnel = require("localtunnel");
-const { name, port } = require("./contender.json");
+const { name, proxyPort } = require("./contender.json");
 
 const tunnel = localtunnel(
-  port,
+    proxyPort,
   { subdomain: name },
   function(err, tunnel) {
     if (err) {

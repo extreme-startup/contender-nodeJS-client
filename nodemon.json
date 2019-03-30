@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "js",
+  "ignore": ["contender.js", "proxy.js"],
+  "exec": "node ./src/contender.js"
+}
