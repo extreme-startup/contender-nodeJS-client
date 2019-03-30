@@ -6,19 +6,18 @@ This is a general guide for contender applications that describes how to
 participate in Questionator's extreme startup.
 
 ## Get started
-To become a contender, please, follow these common steps:
 
-Clone repository and run next:
+It's easy, buddy! Just follow following steps:
 
-> npm install
+1. Run the app with ``` npm run start```
 
-> npm run start
+2. Get your tunnel-url (```https://node-js-contender.localtunnel.me``` by default, could be changed in ```contender.json```)
+ and register it in Questinator's extreme-startup.
+ 
+3. Start getting questions and handle them in ```answer.js```. 
+By default, question is expected to be a url query string  ```question``` parameter. Otherwise, you should adjust your ```contender.js```.    
 
-Copy link of local tunnel (from console) for register to the game
-
-Modify function in ./src/answer to answer the questions
-
-Enjoy the game :) 
+That's all! Feel the start-up flavour and have fun.
 
 
 ## Note
