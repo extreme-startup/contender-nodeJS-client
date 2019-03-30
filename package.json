@@ -5,8 +5,8 @@
   "main": "contender.js",
   "scripts": {
     "start": "concurrently --kill-others \"npm run tunnel \" \"npm run serve\"",
-    "serve": "nodemon contender.js",
-    "tunnel":  "node local-tunnel.js"
+    "serve": "nodemon ./src/contender.js",
+    "tunnel":  "node ./src/local-tunnel.js"
   },
   "dependencies": {
     "concurrently": "4.1.0",
