@@ -1,6 +1,6 @@
 {
   "name": "questinator-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js contender application example",
   "main": "contender.js",
   "scripts": {
@@ -9,6 +9,10 @@
     "proxy": "node ./src/proxy.js",
     "tunnel": "node ./src/local-tunnel.js",
     "publish:patch": "npm version patch --force --commit-hooks=false && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.ipreo.com/Ipreo/iss-bc.git"
   },
   "dependencies": {
     "concurrently": "4.1.0",
