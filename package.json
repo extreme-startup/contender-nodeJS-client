@@ -8,10 +8,6 @@
     "server": "nodemon",
     "questinator-connector": "questinator"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://code.ipreo.com/Ipreo/iss-bc.git"
-  },
   "dependencies": {
     "concurrently": "4.1.0",
     "questinator-connector": "latest",
