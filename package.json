@@ -1,6 +1,6 @@
 {
-  "name": "questinator-client",
-  "version": "0.0.2",
+  "name": "contender",
+  "version": "0.0.0",
   "description": "Node.js contender application example",
   "main": "contender.js",
   "scripts": {
@@ -19,7 +19,5 @@
   },
   "bin": {
     "questinator": "./bin/questinator.js"
-  },
-  "author": "questinator",
-  "license": "MIT"
+  }
 }
