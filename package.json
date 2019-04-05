@@ -12,8 +12,5 @@
     "concurrently": "4.1.0",
     "questinator-connector": "latest",
     "nodemon": "1.18.10"
-  },
-  "bin": {
-    "questinator": "./bin/questinator.js"
   }
 }
