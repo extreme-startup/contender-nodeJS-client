@@ -4,7 +4,6 @@
   "description": "Node.js contender application example",
   "main": "contender.js",
   "scripts": {
-    "start": "nodemon",
     "server": "nodemon",
     "questinator-connector": "questinator"
   },
