@@ -1,5 +1,4 @@
 {
   "name": "node-js-contender",
-  "port": 3000,
-  "proxyPort": 3001
+  "port": 7000
 }

@@ -4,26 +4,12 @@
   "description": "Node.js contender application example",
   "main": "contender.js",
   "scripts": {
-    "start": "concurrently --kill-others \"npm run tunnel \" \"npm run serve\" \"npm run proxy\"",
-    "serve": "nodemon",
-    "proxy": "node ./src/proxy.js",
-    "tunnel": "node ./src/local-tunnel.js",
-    "publish:patch": "npm version patch --force --commit-hooks=false && npm publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://code.ipreo.com/Ipreo/iss-bc.git"
+    "server": "nodemon",
+    "questinator-connector": "questinator"
   },
   "dependencies": {
     "concurrently": "4.1.0",
-    "http-proxy": "1.17.0",
-    "localtunnel": "1.9.1",
+    "questinator-connector": "latest",
     "nodemon": "1.18.10"
-  },
-  "bin": {
-    "questinator": "./bin/questinator.js"
-  },
-  "preferGlobal": true,
-  "author": "questinator",
-  "license": "MIT"
+  }
 }
