@@ -10,7 +10,7 @@ participate in Questionator's extreme startup.
 It's easy, buddy! Just follow following steps:
 1. Run the app with ``` npm install```
 2. Run the app with ``` npm run questinator-connector```
-3. Specify game session url, your email and you local server port (7000 by default)
+3. Specify game session url, your email and you local server port (7000 by default) (see https://github.com/extreme-startup/questinator-connector#questinator-connector for more details)
 
 3. Run your local server with ``` npm run start```
  
